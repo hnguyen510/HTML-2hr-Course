@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Full HTML Project</title>
+</head>
+<body>
+	<h1>Welcome to this Website!</h1>
+	<h4>I hope you are having a good day.</h4>
+	<p>
+		<img src="example_image.jpg">
+	</p>
+	<p>
+		Before you go, why don't you take a look at the <u><strong>Google Search Engine?</strong></u>
+		<u><a href="http://www.google.com" target="blank"> Click here to go to Google </a></u>
+	</p>
+	<p>
+		Here is a list of our <strong>Services:</strong>
+		<ul>
+			<li>HTML Development</li>
+			<li>Web Development</li>
+			<li>Web Development Courses</li>
+		</ul>
+	</p>
+	<p>
+		Here is a pricing of our course
+		<table border="1">
+			<thead>
+				<tr>
+					<td><strong>Course</strong></td>
+					<td><strong>Skill Level</strong></td>
+					<td><strong>Price</strong></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>HTML Course</td>
+					<td>Beginner</td>
+					<td>$100.00</td>
+				</tr>
+				<tr>
+					<td>CSS Course</td>
+					<td>Intermediate</td>
+					<td>$150.00</td>
+				</tr>
+				<tr>
+					<td>JS Course</td>
+					<td>Expert</td>
+					<td>$500.00</td>
+				</tr>
+			</tbody>
+		</table>
+	</p>
+	<h2>Willing to join our courses? Complete the form below!</h2>
+	<form>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="Email" required>
+			<label for="pass">Password:</label>
+			<input type="password" name="password" id="password" placeholder="Password" required>
+		</p>
+		<p>
+			<label for="skill"> Skill Level:</label>
+			<select name="skill" id="skill">
+				<option selected disabled value="0">Skill</option>
+				<option value="beginner">Beginner</option>
+				<option value="intermedidate">Intermediate</option>
+				<option value="advanced">Advanced</option>
+			</select>
+		</p>
+		<p><strong>Do you aspire to have a job in Web Development</strong></p>
+		<p>
+			<label> Yes
+				<input type="radio" name="job" id="job" value="yes">
+			</label>
+			
+			<label> No
+				<input type="radio" name="job" id="job" value="no">
+			</label>
+		</p>
+		<p>
+			<input type="submit" name="submit">
+		</p>
+	</form>
+</body>
+</html>
